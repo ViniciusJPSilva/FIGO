@@ -1,0 +1,7 @@
+services:
+  figo:
+    image: figo
+    build: .
+    volumes:
+      - .:/app
+    command: make run
